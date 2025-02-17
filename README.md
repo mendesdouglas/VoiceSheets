@@ -1,5 +1,7 @@
 # VoiceSheets - Automação por comandos de voz
-Este projeto é uma API modular desenvolvida em Python, que permite a automação de tarefas através do reconhecimento de voz. O sistema processa comandos falados e executa ações como:
+Este é um projeto de automação por comandos de voz que integra reconhecimento de voz, 
+manipulação de planilhas do Google Sheets e execução de tarefas personalizadas. 
+Com um desenvolvimento da api, o sistema permite controlar tarefas por voz e futuramente será integrado a uma interface gráfica usando Electron.
 
 - ✅ Captura e interpretação de voz
 - ✅ Simulação de teclas e atalhos
@@ -14,6 +16,7 @@ Este projeto é uma API modular desenvolvida em Python, que permite a automaçã
 - gspread para Google Sheets
 - PyPDF2 para manipulação de PDFs
 - Electron.js (futuro módulo de UI)
+
 ## 🚀 Próximos Passos
 - Implementar WebSockets para comandos em tempo real
 - Criar uma interface com Electron.js
