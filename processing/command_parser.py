@@ -13,6 +13,13 @@ class CommandParser:
             self.voice_output.speak("Abrindo o navegador.")
             # Aqui você pode adicionar o código para abrir o navegador
             print("Navegador aberto.")
+        elif "contar" in command:
+            self.voice_output.speak("contar pastas do windows")
+            self.voice_output.speak(self.task_manager.get_folders())
+        elif "proprietário" in command:
+            self.task_manager.atualizar_proprietario()
+        elif "locatário" in command:
+            self.task_manager.atualizar_locatario()
         elif "cinza" in command:
             self.voice_output.speak("Pressionando a tecla F3...")
             self.voice_output.speak(self.task_manager.press_f3())

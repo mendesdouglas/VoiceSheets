@@ -13,6 +13,7 @@ class App:
         while True:
             command = self.voice_input.listen_commands()
             if command:
+                print(f"Comando: {command}")
                 self.command_parser.execute_routine(command)
 
 
